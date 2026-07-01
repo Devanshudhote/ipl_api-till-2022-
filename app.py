@@ -34,4 +34,4 @@ def team_city():
     response=ipl.city(team,city)
     return response
 
-app.run(debug=True)
+app.run()
