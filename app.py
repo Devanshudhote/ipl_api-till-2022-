@@ -24,7 +24,7 @@ def teamvteam():
 @app.route('/api/team-record')
 def record():
     t=request.args.get("team")
-    response=ipl.teamAPI(t)
+    response=ipl.teamAPIs(t)
     return (response)
 
 @app.route('/api/team-and-city')
