@@ -56,7 +56,7 @@ def allrecord(team):
     except:
         print("error:")
 
-def teamAPI(team):
+def teamAPIs(team):
     df=[(matches["Team1"]==team) | (matches["Team2"]==team)]
     self_record=allrecord(team)
     Teams=matches.Team1.unique()
